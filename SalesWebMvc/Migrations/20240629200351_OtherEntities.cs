@@ -23,7 +23,7 @@ namespace SalesWebMvc.Migrations
                     Email = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     BirthDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    BaseSallary = table.Column<double>(type: "double", nullable: false),
+                    BaseSalary = table.Column<double>(type: "double", nullable: false),
                     DepartmentId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>

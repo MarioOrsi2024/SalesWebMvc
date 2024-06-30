@@ -77,7 +77,7 @@ namespace SalesWebMvc.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<double>("BaseSallary")
+                    b.Property<double>("BaseSalary")
                         .HasColumnType("double");
 
                     b.Property<DateTime>("BirthDate")
