@@ -15,5 +15,10 @@ namespace SalesWebMvc.Services
         {
             return _context.Department.OrderBy(x => x.Name).ToList(); // Operação Síncrona
         }
+
+        internal ICollection<Department> FindAllAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
